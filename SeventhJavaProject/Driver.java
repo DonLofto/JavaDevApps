@@ -24,6 +24,8 @@ public class Driver {
             List<Book> books = library.getBooks();
             writeToFile(books);
 
+
+            library.removeBook(Book6);
             // this implements readFromFile function to read the ArrayList from myFile.txt
             List<Book> list= new ArrayList<>();
             readFromFile(list);
